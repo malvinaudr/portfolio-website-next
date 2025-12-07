@@ -1,4 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
+import socialLinks from "@/data/data";
 import Link from "next/link";
 import { FaGithub, FaLinkedin, FaPhoneAlt } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
@@ -26,13 +27,10 @@ const Footer = () => {
             You may also find me on these platforms!
           </p>
           <div className="flex flex-row justify-center items-center gap-4 text-[18px] md:text-[36px]">
-            <Link href={"https://github.com/malvz22"} target="_blank">
+            <Link href={socialLinks.github} target="_blank">
               <FaGithub />
             </Link>
-            <Link
-              href={"https://www.linkedin.com/in/malvin-audriansyah"}
-              target="_blank"
-            >
+            <Link href={socialLinks.linkedIn} target="_blank">
               <FaLinkedin />
             </Link>
           </div>

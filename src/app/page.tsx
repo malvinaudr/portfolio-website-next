@@ -7,6 +7,7 @@ import ProjectCard from "./components/ProjectCard";
 import Link from "next/link";
 import DisplayProjects from "./components/DisplayProjects";
 import Heading from "./components/Heading";
+import socialLinks from "../data/data";
 
 interface Skill {
   category: string;
@@ -143,13 +144,10 @@ export default function Home() {
               </p>
 
               <div className="flex flex-row justify-center md:justify-start gap-4">
-                <Link href={"https://github.com/malvz22"} target="_blank">
+                <Link href={socialLinks.github} target="_blank">
                   <FaGithub size={32} />
                 </Link>
-                <Link
-                  href={"https://www.linkedin.com/in/malvin-audriansyah"}
-                  target="_blank"
-                >
+                <Link href={socialLinks.linkedIn} target="_blank">
                   <FaLinkedin size={32} />
                 </Link>
               </div>
