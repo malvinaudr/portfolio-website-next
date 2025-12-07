@@ -164,7 +164,7 @@ const Projects = [
     bgColor: "bg-[#000000]",
     techs: ["WordPress", "Elementor"],
     description:
-      "Ongoing website maintenance and content management for the Signature Network, a Dubai-based company. Built with WordPress and Elementor Page Builder, the site features a clean and modern design that promotes the company’s services in Recruitment and Corporate Events. My responsibilities include updating and managing website content (such as blog articles, event landing pages, and other sections), optimizing site performance, and ensuring a responsive, user-friendly experience across all devices. The website includes dedicated pages such as Meet Our Team, Our Services, Careers, Bizzmatcher App, Events & Webinars, Blog, Podcasts, and CSR (Corporate Social Responsibility) initiatives. (NOTE: This is a WordPress-based project, so the code repository is not available. Clicking on the GitHub link will redirect you to my GitHub profile instead.)",
+      "Previously website maintenance and content management for the Signature Network (September - November 2025), a Dubai-based company. Built with WordPress and Elementor Page Builder, the site features a clean and modern design that promotes the company’s services in Recruitment and Corporate Events. My responsibilities include updating and managing website content (such as blog articles, event landing pages, and other sections), optimizing site performance, and ensuring a responsive, user-friendly experience across all devices. The website includes dedicated pages such as Meet Our Team, Our Services, Careers, Bizzmatcher App, Events & Webinars, Blog, Podcasts, and CSR (Corporate Social Responsibility) initiatives. (NOTE: This is a WordPress-based project, so the code repository is not available. Clicking on the GitHub link will redirect you to my GitHub profile instead.)",
     repositoryLink: "https://github.com/malvinaudr",
     websiteLink: "https://signature-network.com/",
     screenshots: [
@@ -262,11 +262,6 @@ const DisplayProjects = () => {
     setSelectedProject(project);
     // You can add more logic here if needed, like opening a modal or navigating to a project detail page
   };
-
-  // const handleImageClick = (imgSrc: string) => {
-  //   console.log("Clicked image source:", imgSrc);
-  //   setViewImage(selectedProject.screenshots[index]);
-  // };
 
   return (
     <>
