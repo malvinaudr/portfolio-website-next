@@ -235,6 +235,7 @@ const PrevArrow = ({ onClick }: { onClick?: MouseEventHandler }) => {
 
 const DisplayProjects = () => {
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
+  const [viewImage, setViewImage] = useState<string | null>(null);
 
   const settings = {
     dots: false,
@@ -261,6 +262,11 @@ const DisplayProjects = () => {
     setSelectedProject(project);
     // You can add more logic here if needed, like opening a modal or navigating to a project detail page
   };
+
+  // const handleImageClick = (imgSrc: string) => {
+  //   console.log("Clicked image source:", imgSrc);
+  //   setViewImage(selectedProject.screenshots[index]);
+  // };
 
   return (
     <>
@@ -312,6 +318,9 @@ const DisplayProjects = () => {
                         fill
                         style={{ objectFit: "contain" }}
                         sizes="100%"
+                        onClick={() => {
+                          setViewImage(selectedProject.screenshots[index]);
+                        }}
                       />
                     </div>
                   </div>
@@ -350,6 +359,25 @@ const DisplayProjects = () => {
           </div>
         )}
       </Modal>
+
+      {/* //View Image */}
+      {viewImage && (
+        <div
+          className="fixed inset-0 bg-black/50 z-[9999] flex items-center justify-center"
+          onClick={() => setViewImage(null)}
+        >
+          <div className="relative w-full max-w-4xl h-[800px] mx-3">
+            <Image
+              src={viewImage}
+              alt="Image View"
+              fill
+              sizes="100%"
+              className="mx-auto"
+              style={{ objectFit: "contain" }}
+            />
+          </div>
+        </div>
+      )}
     </>
   );
 };
