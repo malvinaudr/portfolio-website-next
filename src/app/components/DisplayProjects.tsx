@@ -180,9 +180,7 @@ const Projects = [
 ];
 
 const techIconMap: Record<string, JSX.Element> = {
-  "React.js": (
-    <Image src={"/react.png"} width={24} height={24} alt="React.js" />
-  ),
+  "React.js": <Image src={"react.png"} width={24} height={24} alt="React.js" />,
   "Next.js": (
     <Image
       src={"nextjs-icon-light-background.png"}
@@ -191,19 +189,19 @@ const techIconMap: Record<string, JSX.Element> = {
       alt="Next.js"
     />
   ),
-  JavaScript: <Image src={"/js.png"} width={24} height={24} alt="JavaScript" />,
+  JavaScript: <Image src={"js.png"} width={24} height={24} alt="JavaScript" />,
   TypeScript: (
-    <Image src={"/ts-logo-512.png"} width={24} height={24} alt="TypeScript" />
+    <Image src={"ts-logo-512.png"} width={24} height={24} alt="TypeScript" />
   ),
   "Tailwind CSS": (
-    <Image src={"/tailwind.svg"} width={24} height={24} alt="Tailwind CSS" />
+    <Image src={"tailwind.svg"} width={24} height={24} alt="Tailwind CSS" />
   ),
   WordPress: (
-    <Image src={"/wordpress.png"} width={24} height={24} alt="WordPress" />
+    <Image src={"wordpress.png"} width={24} height={24} alt="WordPress" />
   ),
   Elementor: (
     <Image
-      src={"/Elementor-Logo-Symbol-Red.svg"}
+      src={"Elementor-Logo-Symbol-Red.svg"}
       width={24}
       height={24}
       alt="Elementor"
