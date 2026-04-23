@@ -1,4 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
+export const dynamic = "force-static";
 import Image from "next/image";
 import { FaGithub, FaLinkedin, FaPhoneAlt } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
