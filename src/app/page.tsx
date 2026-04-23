@@ -21,35 +21,35 @@ interface Skill {
 const skills = [
   {
     name: "HTML",
-    icon: "icons/html-5.PNG",
+    icon: "icons/html-5.png",
   },
   {
     name: "CSS",
-    icon: "icons/css-3.PNG",
+    icon: "icons/css-3.png",
   },
   {
     name: "JavaScript",
-    icon: "icons/js.PNG",
+    icon: "icons/js.png",
   },
   {
     name: "TypeScript",
-    icon: "icons/ts-logo-512.PNG",
+    icon: "icons/ts-logo-512.png",
   },
   {
     name: "React.js",
-    icon: "icons/react.PNG",
+    icon: "icons/react.png",
   },
   {
     name: "Next.js",
-    icon: "icons/nextjs-icon-light-background.PNG",
+    icon: "icons/nextjs-icon-light-background.png",
   },
   {
     name: "Tailwind CSS",
-    icon: "icons/tailwind.SVG",
+    icon: "icons/tailwind.svg",
   },
   {
     name: "Git",
-    icon: "icons/git.PNG",
+    icon: "icons/git.png",
   },
   {
     name: "Figma",
@@ -61,10 +61,10 @@ const categorizedSkills = [
   {
     category: "Languages",
     skills: [
-      { name: "HTML", icon: "icons/html-5.PNG" },
-      { name: "CSS", icon: "icons/css-3.PNG" },
-      { name: "JavaScript", icon: "icons/js.PNG" },
-      { name: "TypeScript", icon: "icons/ts-logo-512.PNG" },
+      { name: "HTML", icon: "icons/html-5.png" },
+      { name: "CSS", icon: "icons/css-3.png" },
+      { name: "JavaScript", icon: "icons/js.png" },
+      { name: "TypeScript", icon: "icons/ts-logo-512.png" },
     ],
   },
   {
@@ -72,15 +72,15 @@ const categorizedSkills = [
     skills: [
       {
         name: "React.js",
-        icon: "icons/react.PNG",
+        icon: "icons/react.png",
       },
       {
         name: "Next.js",
-        icon: "icons/nextjs-icon-light-background.PNG",
+        icon: "icons/nextjs-icon-light-background.png",
       },
       {
         name: "Tailwind CSS",
-        icon: "icons/tailwind.SVG",
+        icon: "icons/tailwind.svg",
       },
     ],
   },
@@ -89,19 +89,19 @@ const categorizedSkills = [
     skills: [
       {
         name: "Git",
-        icon: "icons/git.PNG",
+        icon: "icons/git.png",
       },
       {
         name: "VS Code",
-        icon: "icons/vscode.PNG",
+        icon: "icons/vscode.png",
       },
       {
         name: "WordPress",
-        icon: "icons/wordpress.PNG",
+        icon: "icons/wordpress.png",
       },
       {
         name: "Elementor",
-        icon: "icons/Elementor-Logo-Symbol-Red.SVG",
+        icon: "icons/Elementor-Logo-Symbol-Red.svg",
       },
     ],
   },
@@ -118,7 +118,7 @@ export default function Home() {
           <div className="flex flex-col w-full max-w-full md:flex-row-reverse gap-7 justify-between items-center">
             <div className="bg-slate-300 rounded-full w-full max-w-[400px] aspect-square relative flex justify-center items-center overflow-hidden">
               <Image
-                src={"icons/profilepic.PNG"}
+                src={"icons/profilepic.png"}
                 fill
                 style={{ objectFit: "cover" }}
                 alt="displaypicture"
