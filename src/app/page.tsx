@@ -21,39 +21,39 @@ interface Skill {
 const skills = [
   {
     name: "HTML",
-    icon: "html-5.png",
+    icon: "./html-5.PNG",
   },
   {
     name: "CSS",
-    icon: "css-3.png",
+    icon: "./css-3.PNG",
   },
   {
     name: "JavaScript",
-    icon: "js.png",
+    icon: "./js.PNG",
   },
   {
     name: "TypeScript",
-    icon: "ts-logo-512.png",
+    icon: "./ts-logo-512.PNG",
   },
   {
     name: "React.js",
-    icon: "react.png",
+    icon: "./react.PNG",
   },
   {
     name: "Next.js",
-    icon: "nextjs-icon-light-background.png",
+    icon: "./nextjs-icon-light-background.PNG",
   },
   {
     name: "Tailwind CSS",
-    icon: "tailwind.svg",
+    icon: "./tailwind.SVG",
   },
   {
     name: "Git",
-    icon: "git.png",
+    icon: "./git.PNG",
   },
   {
     name: "Figma",
-    icon: "figma.png",
+    icon: "./figma.png",
   },
 ];
 
@@ -61,10 +61,10 @@ const categorizedSkills = [
   {
     category: "Languages",
     skills: [
-      { name: "HTML", icon: "html-5.PNG" },
-      { name: "CSS", icon: "css-3.PNG" },
-      { name: "JavaScript", icon: "js.PNG" },
-      { name: "TypeScript", icon: "ts-logo-512.PNG" },
+      { name: "HTML", icon: "./html-5.PNG" },
+      { name: "CSS", icon: "./css-3.PNG" },
+      { name: "JavaScript", icon: "./js.PNG" },
+      { name: "TypeScript", icon: "./ts-logo-512.PNG" },
     ],
   },
   {
@@ -72,15 +72,15 @@ const categorizedSkills = [
     skills: [
       {
         name: "React.js",
-        icon: "react.PNG",
+        icon: "./react.PNG",
       },
       {
         name: "Next.js",
-        icon: "nextjs-icon-light-background.PNG",
+        icon: "./nextjs-icon-light-background.PNG",
       },
       {
         name: "Tailwind CSS",
-        icon: "tailwind.SVG",
+        icon: "./tailwind.SVG",
       },
     ],
   },
@@ -89,11 +89,11 @@ const categorizedSkills = [
     skills: [
       {
         name: "Git",
-        icon: "git.PNG",
+        icon: "./git.PNG",
       },
       {
         name: "VS Code",
-        icon: "vscode.PNG",
+        icon: "./vscode.PNG",
       },
       {
         name: "WordPress",
@@ -101,7 +101,7 @@ const categorizedSkills = [
       },
       {
         name: "Elementor",
-        icon: "Elementor-Logo-Symbol-Red.SVG",
+        icon: "./Elementor-Logo-Symbol-Red.SVG",
       },
     ],
   },
@@ -118,7 +118,7 @@ export default function Home() {
           <div className="flex flex-col w-full max-w-full md:flex-row-reverse gap-7 justify-between items-center">
             <div className="bg-slate-300 rounded-full w-full max-w-[400px] aspect-square relative flex justify-center items-center overflow-hidden">
               <Image
-                src={"profilepic.PNG"}
+                src={"./profilepic.PNG"}
                 fill
                 style={{ objectFit: "cover" }}
                 alt="displaypicture"
